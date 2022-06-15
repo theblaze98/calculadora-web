@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora HTML &bull; CSS &bull; JS</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+
+    <div class="logo">
+        <img src="img/20220523_121020.png" width="300" alt="logo">
+        <h2>HTML &bull; CSS &bull; JS</h2>
+    </div>
+
+    <div class="calculadora">
+        <div class="display">
+            <p id="pDisplay">0</p>
+        </div>
+
+        <div class="keyboard">
+            <button class="btn btn-AC" id="btnAC">AC</button>
+            <button class="btn btn-Del" id="btnDel"><span class="fas fa-arrow-left-long"></span></button>
+
+            <div class="key-operadores">
+                <button class="btn operadores">+</button>
+                <button class="btn operadores">-</button>
+                <button class="btn operadores">*</button>
+                <button class="btn operadores">/</button>
+                <button class="btn operadores" id="igual">=</button>
+            </div>
+
+            <div class="key-numeros">
+                <button class="btn numeros">7</button>
+                <button class="btn numeros">8</button>
+                <button class="btn numeros">9</button>
+                <button class="btn numeros">4</button>
+                <button class="btn numeros">5</button>
+                <button class="btn numeros">6</button>
+                <button class="btn numeros">1</button>
+                <button class="btn numeros">2</button>
+                <button class="btn numeros">3</button>
+                <button class="btn numeros">0</button>
+                <button class="btn numeros">.</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
